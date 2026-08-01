@@ -1,6 +1,6 @@
 ---
 name: human-prose
-description: Sentence-level readability rules for any prose a human will read — file comments, docstrings, module docs, commit messages, PR descriptions, chat explanations. Use when writing or rewriting such prose, when the user says text is dense, overwhelming, machine-written, or a long block of text, or when another skill's output needs a readability pass. Canonical home of the prose rule set shared by mathlib-definition and adaptive-teacher.
+description: Sentence-level readability rules for any prose a human will read — file comments, docstrings, module docs, commit messages, PR descriptions, chat explanations. Use when writing or rewriting such prose, when the user says text is dense, overwhelming, machine-written, or a long block of text, or when another skill's output needs a readability pass. Canonical home of this rule set; other skills point here rather than duplicating it.
 ---
 
 # Human prose
@@ -37,9 +37,3 @@ while drafting. Keep verbatim material untouched: quotes, compiler
 error text, signatures, citations. In Lean files, verify afterwards
 that the diagnostic set is unchanged; in Lean files all commentary goes
 in `/- ... -/` blocks, never `--` line comments.
-
-## Skills that apply this rule set
-
-- `mathlib-definition`: the example-sheet readability pass
-  (`references/example-sheet.md`).
-- `adaptive-teacher`: the hard rule on answer and file prose.
