@@ -29,6 +29,12 @@ questioned or amended, or when a full citation must be quoted.
    hurt learning (Rey 2012). One signal per scope, chosen deliberately.
 6. **Plain register.** Jargon appears at most once, as a parenthetical
    label on the plain phrase it names. (User rule, 2026-08-01: plain language.)
+7. **Name the referent.** An abstract noun standing for something else in
+   the document ("this cost", "that discipline", "the price") makes the
+   reader search for what it names, and they resolve it against the
+   nearest candidate rather than the intended one (Haviland & Clark
+   1974). Write the thing itself, and say where to look at it. (User
+   rule, 2026-08-02, on a paragraph built from four such nouns: an unintelligibility complaint)
 
 ## The pass
 
