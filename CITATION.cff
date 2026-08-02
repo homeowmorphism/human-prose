@@ -7,6 +7,7 @@ authors:
   - family-names: Su
     given-names: Hang Lu
     alias: homeowmorphism
+    orcid: "https://orcid.org/0009-0009-8050-4164"
 abstract: >-
   A Claude Code skill holding sentence-level readability rules for prose a
   human will read: file comments, docstrings, module docs, commit messages,
