@@ -10,10 +10,11 @@ docstring, or a design memo.
 
 Distilled (2026-08-01) from editing sessions on a Lean 4 / mathlib
 project, where dense machine-written comments earned the feedback hard to read. The rules first lived inside
-the [mathlib-definition](https://github.com/homeowmorphism/mathlib-definition)
-skill and were refactored out the same day, so that any skill can apply
-them. [adaptive-teacher](https://github.com/homeowmorphism/adaptive-teacher)
-and mathlib-definition both defer their prose style here.
+the [mathlib-api](https://github.com/homeowmorphism/mathlib-api)
+skill (then named `mathlib-definition`) and were refactored out the same
+day, so that any skill can apply them.
+[adaptive-teacher](https://github.com/homeowmorphism/adaptive-teacher)
+and mathlib-api both defer their prose style here.
 
 ## The rules
 

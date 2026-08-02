@@ -7,8 +7,9 @@ when a full citation must be quoted.
 History: distilled 2026-08-01 from user feedback in the
 `Group.Presentation` project. The sentence rules came from a request to rewrite the docstrings, which were hard to read (on `scratch_field_vs_parameter.lean`). The register rule came
 from an earlier instruction in the same project: plain language.
-The rules first lived in the mathlib-definition skill
-(`references/example-sheet-evidence.md` §Prose readability) and moved
+The rules first lived in the mathlib-definition skill (renamed
+`mathlib-api` on 2026-08-02;
+`references/example-sheet-evidence.md` §Prose readability) and moved
 here the same day so that any skill, or no skill, can apply them.
 
 ## Rule → finding
