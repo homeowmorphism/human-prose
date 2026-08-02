@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: "human-prose: a Claude Code skill for sentence-level readability"
+message: >-
+  If you use this skill, or prose rules derived from it, please cite it.
+type: software
+authors:
+  - family-names: Su
+    given-names: Hang Lu
+    alias: homeowmorphism
+abstract: >-
+  A Claude Code skill holding sentence-level readability rules for prose a
+  human will read: file comments, docstrings, module docs, commit messages,
+  PR descriptions, chat explanations. Each rule removes a documented
+  processing cost and is pinned to the psycholinguistics and
+  multimedia-learning literature.
+keywords:
+  - claude-code
+  - agent-skill
+  - technical-writing
+  - readability
+  - psycholinguistics
+license: Apache-2.0
+url: "https://github.com/homeowmorphism/human-prose"
+repository-code: "https://github.com/homeowmorphism/human-prose"

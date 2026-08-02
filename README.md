@@ -53,8 +53,20 @@ As a personal skill (available in all projects), clone into
 explicitly with `/human-prose`, or let Claude pick it up from the
 skill description when prose needs a readability pass.
 
+## Citation
+
+Author: Hang Lu Su ([homeowmorphism](https://github.com/homeowmorphism)).
+
+Please cite this skill if you use it in published work, ship it inside a
+tool, or build a derivative of it. GitHub's "Cite this repository" button
+reads [CITATION.cff](CITATION.cff) and gives you BibTeX or APA. In plain
+text:
+
+> Su, Hang Lu. *human-prose: a Claude Code skill for sentence-level
+> readability.* https://github.com/homeowmorphism/human-prose
+
 ## License
 
 [Apache License 2.0](LICENSE.md): free to use, modify, and share, for
-any purpose, with an explicit patent grant. Keep the license and
-attribution notices with any redistribution.
+any purpose, with an explicit patent grant. Keep [LICENSE.md](LICENSE.md)
+and [NOTICE](NOTICE) with any redistribution.
