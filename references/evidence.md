@@ -5,8 +5,10 @@ self-sufficient; load this file when a rule is questioned or amended, or
 when a full citation must be quoted.
 
 History: distilled 2026-08-01 from user feedback in the
-`Group.Presentation` project. The sentence rules came from a request to rewrite the docstrings, which were hard to read (on `scratch_field_vs_parameter.lean`). The register rule came
-from an earlier instruction in the same project: plain language.
+`Group.Presentation` project. The sentence rules came from a request to
+rewrite the docstrings in `scratch_field_vs_parameter.lean`, which were
+reported as overwhelming to read. The register rule came from an earlier
+instruction in the same project to write in plain language.
 The rules first lived in the mathlib-definition skill (renamed
 `mathlib-api` on 2026-08-02;
 `references/example-sheet-evidence.md` §Prose readability) and moved

@@ -28,18 +28,28 @@ questioned or amended, or when a full citation must be quoted.
    et al. 2018). Flourishes are seductive details, and those measurably
    hurt learning (Rey 2012). One signal per scope, chosen deliberately.
 6. **Plain register.** Jargon appears at most once, as a parenthetical
-   label on the plain phrase it names. (User rule, 2026-08-01: plain language.)
+   label on the plain phrase it names. (User rule, 2026-08-01: write in
+   plain language.)
 7. **Name the referent.** An abstract noun standing for something else in
    the document ("this cost", "that discipline", "the price") makes the
    reader search for what it names, and they resolve it against the
    nearest candidate rather than the intended one (Haviland & Clark
    1974). Write the thing itself, and say where to look at it. (User
-   rule, 2026-08-02, on a paragraph built from four such nouns: an unintelligibility complaint)
+   rule, 2026-08-02, after a paragraph built from four such nouns was
+   reported as unintelligible.)
+8. **Say it once, then stop.** Length is a cost the reader pays whether
+   or not the words earn it. Cut restatements, preambles, hedges, and
+   sentences that announce what the next sentence will do. A sentence
+   that survives deletion without loss should be deleted. (User rule,
+   2026-08-03: be verbose only when necessary, and only when the extra
+   words carry genuinely useful information.)
 
 ## The pass
 
 Apply the rules as a dedicated pass after the content is complete, not
-while drafting. Keep verbatim material untouched: quotes, compiler
-error text, signatures, citations. In Lean files, verify afterwards
+while drafting. Rule 8 goes first: cut whole paragraphs before polishing
+sentences, or the pass polishes text that should not exist. Keep verbatim
+material untouched: quotes, compiler error text, signatures, citations.
+In Lean files, verify afterwards
 that the diagnostic set is unchanged; in Lean files all commentary goes
 in `/- ... -/` blocks, never `--` line comments.

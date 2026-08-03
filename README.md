@@ -9,7 +9,8 @@ literature. Domain-general: the prose can live in a Lean file, a Python
 docstring, or a design memo.
 
 Distilled (2026-08-01) from editing sessions on a Lean 4 / mathlib
-project, where dense machine-written comments earned the feedback hard to read. The rules first lived inside
+project, where dense machine-written comments were reported as
+overwhelming to read. The rules first lived inside
 the [mathlib-api](https://github.com/homeowmorphism/mathlib-api)
 skill (then named `mathlib-definition`) and were refactored out the same
 day, so that any skill can apply them.
