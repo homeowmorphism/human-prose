@@ -1,0 +1,16 @@
+{
+  "name": "human-prose",
+  "description": "The human-prose skill: sentence-level readability rules for prose a human will read.",
+  "owner": {
+    "name": "Hang Lu Su",
+    "url": "https://github.com/homeowmorphism"
+  },
+  "plugins": [
+    {
+      "name": "human-prose",
+      "source": "./",
+      "description": "Sentence-level readability rules for prose a human will read, each pinned to the psycholinguistics literature.",
+      "category": "productivity"
+    }
+  ]
+}

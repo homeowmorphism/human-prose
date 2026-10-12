@@ -1,0 +1,15 @@
+{
+  "name": "human-prose",
+  "displayName": "Human Prose",
+  "version": "1.0.0",
+  "description": "Sentence-level readability rules for prose a human will read, each pinned to the psycholinguistics literature.",
+  "author": {
+    "name": "Hang Lu Su",
+    "url": "https://github.com/homeowmorphism"
+  },
+  "homepage": "https://github.com/homeowmorphism/human-prose",
+  "repository": "https://github.com/homeowmorphism/human-prose",
+  "license": "Apache-2.0",
+  "keywords": ["writing", "readability", "technical-writing", "documentation", "psycholinguistics"],
+  "skills": ["./"]
+}

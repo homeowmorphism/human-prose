@@ -30,16 +30,22 @@ and mathlib-api both defer their prose style here.
    al. 2018), and flourishes are seductive details (Rey 2012).
 6. Plain register: jargon at most once, as a parenthetical label on the
    plain phrase it names.
+7. Name the referent. An abstract noun such as "this cost" makes the
+   reader search for what it names (Haviland & Clark 1974). Write the
+   thing itself.
+8. Say it once, then stop. Cut restatements, preambles, hedges, and
+   sentences that announce the next sentence.
 
 The rules are applied as a dedicated pass after the content is
-complete. Verbatim material (quotes, compiler errors, signatures,
-citations) stays untouched.
+complete, starting with rule 8. Verbatim material (quotes, compiler
+errors, signatures, citations) stays untouched.
 
 ## Repository layout
 
 ```
 SKILL.md               entry point, self-sufficient: the rules and
                        the pass
+.claude-plugin/        plugin manifest and a one-plugin marketplace
 references/
   evidence.md          on-demand evidence base: rule → finding mapping,
                        history, bibliography with per-entry
@@ -48,11 +54,22 @@ references/
 
 ## Installation
 
+As a plugin, run this in Claude Code:
+
+```
+/plugin install human-prose --marketplace homeowmorphism/human-prose
+```
+
+The skill is then available as `/human-prose:human-prose`.
+
 As a personal skill (available in all projects), clone into
 `~/.claude/skills/human-prose`. As a project skill, clone into
 `.claude/skills/human-prose` inside the project instead. Invoke it
 explicitly with `/human-prose`, or let Claude pick it up from the
 skill description when prose needs a readability pass.
+
+The skill is instructions only. It runs no code, and it sends and
+fetches no data.
 
 ## Citation
 
