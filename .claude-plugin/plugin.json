@@ -11,5 +11,6 @@
   "repository": "https://github.com/homeowmorphism/human-prose",
   "license": "Apache-2.0",
   "keywords": ["writing", "readability", "technical-writing", "documentation", "psycholinguistics"],
+  "icon": "./assets/icon.png",
   "skills": ["./"]
 }
